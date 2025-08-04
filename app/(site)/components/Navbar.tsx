@@ -5,8 +5,8 @@ import { TbMenuDeep } from "react-icons/tb";
 
 export default function Navbar() {
     return (
-        <nav className="w-full">
-            <div className="max-w-4/5 mx-auto flex items-center justify-between">
+        <nav className="w-full mt-5">
+            <div className="max-w-4/5 mx-auto flex items-center justify-between rounded-full bg-white px-5">
                 <Link href="/">
                     <Image src="/logo.png" alt="Logo" width={80} height={80} />
                 </Link>
@@ -18,17 +18,17 @@ export default function Navbar() {
                     </li>
                     <li>
                         <Link href="#" className="px-4 py-3 hover:bg-gray-200 rounded-full transition-all duration-150">
+                            Buy
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="#" className="px-4 py-3 hover:bg-gray-200 rounded-full transition-all duration-150">
+                            Rent
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="#" className="px-4 py-3 hover:bg-gray-200 rounded-full transition-all duration-150">
                             About us
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="#" className="px-4 py-3 hover:bg-gray-200 rounded-full transition-all duration-150">
-                            Properties
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="#" className="px-4 py-3 hover:bg-gray-200 rounded-full transition-all duration-150">
-                            Services
                         </Link>
                     </li>
                 </ul>
